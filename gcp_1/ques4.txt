@@ -1,0 +1,13 @@
+1. create custom service account
+   1.1. click on create service account
+   1.2. give service account name
+   1.3. give service a role
+   1.4. give storage veiwer permission in roles
+   1.5. click on create service
+
+2. Create an instance for this service account
+   1.1. Open compute engine and vm instances
+   1.2. create instance
+   1.3. Give a unique name to the instance
+   1.4. In Identify and API access and Select the service account previously created
+   1.5. cclick on create.

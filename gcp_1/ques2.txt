@@ -1,0 +1,8 @@
+1. $ gcloud config configurations create my-config
+  
+   ( for creating new configurations )
+
+2.  $ gcloud config configurations activate my_config
+   ( activate existing configuration)
+
+ 

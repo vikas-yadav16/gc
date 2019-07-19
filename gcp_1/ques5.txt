@@ -1,0 +1,20 @@
+1.Create a bucket either by console
+
+2.Operations using gsutil sdk
+  2.1. upload object to bucket
+       gsutil cp [OBJECT_LOCATION] gs://[DESTINATION_BUCKET_NAME]/
+	
+  2.2. listing all objects 
+	gsutil ls -r gs://BUCKET-NAME/**              
+	
+  2.3. download object to local repo
+	gsutil cp gs://BUCKET-NAME/photo.JPG ~/Desktop/
+	
+  2.4. copying in another bucket
+	gsutil cp gs://[SOURCE_BUCKET_NAME]/[SOURCE_OBJECT_NAME] gs://[DESTINATION_BUCKET_NAME]/[NAME_OF_COPY]
+	
+  2.5. moving to another bucket
+	gsutil mv gs://[SOURCE_BUCKET_NAME]/[SOURCE_OBJECT_NAME] gs://[DESTINATION_BUCKET_NAME]/[DESTINATION_OBJECT_NAME]
+	
+  2.6. deleting an object
+       gsutil rm gs://[BUCKET-NAME]/[OBJECT-NAME]

@@ -1,0 +1,7 @@
+1. gcloud services list --available
+
+    ( for listing all services )
+
+2. gcloud services list
+   ( for listing enabled services)
+  

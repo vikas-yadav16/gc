@@ -1,0 +1,7 @@
+1. create pub/sub and assign a topic to it
+2. create cloud function and attach it to your pub/sub topic
+3. create a bigquery dataset from google cloud console
+4. create a bucket and add a sample json file in the bucket
+5. publish the message from the pub sub by giving bucket name and object path of json
+6. check for the execution status in the logs of the cloud function.
+
