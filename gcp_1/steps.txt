@@ -1,0 +1,29 @@
+1. Create an instance with a startup script
+
+2. Install the Stackdriver Monitoring agent on vm instance using following commands:
+       a. curl -sSO https://dl.google.com/cloudagents/install-monitoring-agent.sh
+       b. sudo bash install-monitoring-agent.sh
+
+3. Install the Stackdriver Logging agent
+       a. curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
+       b. sudo bash install-logging-agent.sh --structured
+
+4. go to stackdriver monitoring console
+
+5 . Navigate to Uptime Checks > Uptime Checks Overview and then click Add Uptime Check
+
+7.  Give a title to the checkup
+
+8. Select Checkup type as HTTP
+
+9. Select Resource type as Instance
+
+10. Select the instance to which we want to attach the check up (my-instance)
+
+11. Click on Save And create an Alert Policy for this check
+
+12. Give it a title and Save
+
+13. Enter your email address and then click Add Notification Channel
+
+14. In the Name this policy pane, enter My Uptime Check Policy
